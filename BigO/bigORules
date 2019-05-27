@@ -1,3 +1,14 @@
+-Big Os(From Best to worst):
+    - Best cases: { 
+        O(1) - Constant time(no loops)
+        O(log(n)) - Logarithmic(usually sorting algorithms)
+    }
+    - O(n) - linear(usually loops)
+    -O(n*log(n)) - Log Linear(usually sorting operations)
+    -O(n^2) - Quadratic(usually nested loops)
+    -O(2^n) - Exponential(usually recursive algorithms that solve a problem of size N)
+    -O(n!) - Input factorial(add loop for every element in input)
+
 -Big O Rules:
     -Rule 1: Worst case => always take into account for worst case
     -Rule 2: Remove constants 
@@ -9,3 +20,9 @@
     -Rule 4: Drop non dominants
         => if larger n exists then disregard other n's
             => example: O(n + n^2) becomes O(n^2)
+
+-What causes time in function:
+    -Operations(+, -, *, /)
+    -Comparisons(==, >, <, !=)
+    -Loops(for, while)
+    -Outside function calls
