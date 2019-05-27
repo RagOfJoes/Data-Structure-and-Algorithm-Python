@@ -26,3 +26,9 @@
     -Comparisons(==, >, <, !=)
     -Loops(for, while)
     -Outside function calls
+
+-What causes Space Complexity:
+    -Variables
+    -Data Structures
+    -Function calls
+    -Allocation
