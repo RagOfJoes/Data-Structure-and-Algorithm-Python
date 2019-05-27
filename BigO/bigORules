@@ -7,7 +7,7 @@
     -O(n*log(n)) - Log Linear(usually sorting operations)
     -O(n^2) - Quadratic(usually nested loops)
     -O(2^n) - Exponential(usually recursive algorithms that solve a problem of size N)
-    -O(n!) - Input factorial(add loop for every element in input)
+    -O(n!) - Input factorial(add loop for every element in input)(NEVER EVER DO THIS!!!)
 
 -Big O Rules:
     -Rule 1: Worst case => always take into account for worst case
