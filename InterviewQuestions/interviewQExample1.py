@@ -42,7 +42,7 @@ def hasCommonItemHashTable(arrOne, arrTwo):
     # letter/element: true,
     # ...
     # }
-    commonTable = {} # Initialize an object or a dict in Python for HashTable
+    commonTable = {} # Initialize an object or a dict in Python for HashTable, Space Complexity: O(n)
     for itemOne in arrOne: # Time: O(n), Space: O(1)
         commonTable[itemOne] = True
 
@@ -55,6 +55,6 @@ def hasCommonItemHashTable(arrOne, arrTwo):
             continue
     return False
 
-print(hasCommonItemHashTable(exampleArrOne, exampleArrTwo)) # Time Complexity: O(n), Space Complexity: O(1)
+print(hasCommonItemHashTable(exampleArrOne, exampleArrTwo)) # Time Complexity: O(n), Space Complexity: O(n)
 
 
