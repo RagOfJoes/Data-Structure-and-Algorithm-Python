@@ -1,0 +1,11 @@
+-Big O Rules:
+    -Rule 1: Worst case => always take into account for worst case
+    -Rule 2: Remove constants 
+        => if Big O was O(n/2 + 1000) b/c of Rule 2 should just become O(n + 1) || O(n)
+        => another example O(2n) is just O(n) b/c still linear if graphed
+    -Rule 3: Different terms for inputs
+        => if two different inputs && different loops for each input then Big O: O(n + m)
+        => if two different inputs && nested loops then Big O: O(n^2)
+    -Rule 4: Drop non dominants
+        => if larger n exists then disregard other n's
+            => example: O(n + n^2) becomes O(n^2)
